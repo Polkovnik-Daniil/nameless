@@ -7,7 +7,7 @@ using namespace std;
 
 int summ(int **arr, int size) {
 	int res_frst = 0;
-	cout << "İëåìåíòû ìàòğèöû íèæå ãëàâíîé äèàãîíàëè: " << endl;
+	cout << "ÃÃ«Ã¥Ã¬Ã¥Ã­Ã²Ã» Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã­Ã¨Ã¦Ã¥ Ã£Ã«Ã Ã¢Ã­Ã®Ã© Ã¤Ã¨Ã Ã£Ã®Ã­Ã Ã«Ã¨: " << endl;
 	srand(time(NULL));
 	for (int i = 0; i < size; i++) {
 		for (int k = 0; k < size; k++) {
@@ -41,7 +41,7 @@ void main() {
 	setlocale(LC_CTYPE, "Russian");
 	
 	int count_matr, size = 5, temp = 0, temp_matr = 0;
-	cout << "Ñêîëüîê ìàòğèö âû õîòèòå ñîçäàòü: ";
+	cout << "Ã‘ÃªÃ®Ã«Ã¼Ã®Ãª Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã¢Ã» ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã±Ã®Ã§Ã¤Ã Ã²Ã¼: ";
 	cin >> count_matr;
 	do {
 
@@ -55,6 +55,7 @@ void main() {
 		count_matr--;
 	} while (count_matr >= 0);
 
-	cout << "Íàèáîëüøàÿ ñóììà ñğåäè ìàòğèö = " << temp << endl;
+	cout << "ÃÃ Ã¨Ã¡Ã®Ã«Ã¼Ã¸Ã Ã¿ Ã±Ã³Ã¬Ã¬Ã  Ã±Ã°Ã¥Ã¤Ã¨ Ã¬Ã Ã²Ã°Ã¨Ã¶ = " << temp << endl;
 	system("pause");
 }
+//it`s my changes your brother
